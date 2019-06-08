@@ -56,21 +56,42 @@ print ("r = ".. r)
 
 concatenação ..
 
+#######################
 i = 1
 while (i <= 5) do
   print(i)
   i <- i + 1
 end
 
+#######################
 i = 1
 repeat
   print(i)
   i = i + 1
 until (i > 5)
 
+#######################
 for i = 1, 10, 1 do
   print(i)
 end
+
+#######################
+function quantidade(n)
+  if (n==1) then
+    return "um"
+  end
+  if (n==2) then
+    return "um","dois"
+  end
+  if (n==3) then 
+    return "um","dois","três"
+  end
+end
+
+vlr = tonumber ((io.read))
+print(quantidade(vlr))
+
+
 
 
 
