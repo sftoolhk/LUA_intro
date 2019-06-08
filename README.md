@@ -39,6 +39,10 @@ for var = inicial, fim, incremento do
   ação
 end
 
+divisão de inteiros
+5.1 -> r = math.floor(5/2)
+5.3 -> r = 5 // 2
+
 a = tonumber (io.read())
 b = tonumber (io.read())
 if (a > b) then
@@ -47,5 +51,28 @@ else
   r = b - a
 end
 print ("r = ", r)
+
+print ("r = ".. r)
+
+concatenação ..
+
+i = 1
+while (i <= 5) do
+  print(i)
+  i <- i + 1
+end
+
+i = 1
+repeat
+  print(i)
+  i = i + 1
+until (i > 5)
+
+for i = 1, 10, 1 do
+  print(i)
+end
+
+
+
 
 
